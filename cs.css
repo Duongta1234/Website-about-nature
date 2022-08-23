@@ -1,0 +1,376 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  margin: auto;
+  height: 100%;
+ 
+ 
+}
+.header{
+  background-image: url(images/img/header-bg.png);
+}
+.head{
+  width: 100%;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+}
+.head .mobile{
+display: none;
+}
+.head .lefthead{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+
+.head  .list-item ul{
+  
+}
+.head .righhead .list ul li{
+  display: inline-block;
+  list-style: none;
+   width: 100px;
+   height: 40px;
+   margin-top: 36px;
+}
+.head .righhead .list ul li a{
+  font-size: large;
+  color: white;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.head .righhead .list ul li a:hover{
+text-decoration:underline;
+cursor: pointer;
+ 
+}
+.banner{
+  margin-top: 170px;
+}
+.banner .text{
+  margin-top: 0px;
+  text-align: center;
+}
+.banner .text h2{
+  text-transform: uppercase;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.banner .text2{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+margin-top: 90px;
+}
+.banner .text2 h1{
+font-size: 69px;
+}
+.banner .button{
+  text-align: center;
+margin-top: 10px;
+padding-bottom: 10px;
+}
+.banner button{
+  height: 50px;
+  width: 200px;
+  font-family:'Courier New', Courier, monospace;
+  border: 0px solid white;
+  color: white;
+  font-size: large;
+  border-radius: 15px;
+  background-color: rgb(206, 103, 103);
+}
+.title-main{
+  margin-left: 60px;
+  font-family:'Courier New', Courier, monospace;
+  margin-top: 10px;
+  color:bisque;
+}
+.title-main h1{
+ 
+ 
+}
+.title-main hr{
+  width: 250px;
+  background-color: red;
+  height: 3px;
+
+}
+.box1{
+  display: flex;
+}
+.box1 .box1-show{
+  justify-content: left;
+  margin-top: 20px;
+  width: 50%;
+  text-align: center;
+}
+.box1 .box1-show .image img{
+   width: 556px;
+   height: 373px;
+}
+.box1 .box1-show .Name-main{
+margin-top: 8px;
+}
+.box1 .box1-show .praragrap-intro{
+  margin-left: 100px;
+  font-family: 'Anton', sans-serif;
+  margin-top: 17px;
+  height: 99.2px;
+  width: 550px;
+  
+}
+
+
+
+.box1 .box2-show{
+  justify-content: left;
+  margin-top: 20px;
+  width: 50%;
+  text-align: center;
+}
+.box1 .box2-show .image img{
+   width: 556px;
+   height: 373px;
+}
+.box1 .box2-show .Name-main{
+margin-top: 8px;
+}
+.box1 .box2-show .praragrap-intro{
+  margin-left: 100px;
+  font-family: 'Anton', sans-serif;
+  margin-top: 17px;
+  width: 550px;
+  height: 99.2px;
+}
+.box1 .box1-show .button button{
+  width: 100px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  border: 0px solid white;
+  background-color: rgb(166, 139, 139);
+  border-radius: 15px;
+  height: 30px;
+}
+.box1 .box2-show .button button{
+  width: 100px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  border: 0px solid white;
+  background-color: rgb(166, 139, 139);
+  border-radius: 15px;
+}
+.box2 {
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+  position: relative;
+}
+.box2 .image {
+  width: 1440px;
+  height: 700px;
+  
+}
+.box2 .image img{
+  width: 100%;
+  height: 100%;
+  
+}
+.box2 .text{
+  position: absolute;
+
+  color: white;
+  top: 60px;
+  left: 610px;
+}
+.footer{
+  margin-top: 100px;
+  height: 100px;
+  width: 100%;
+  background-color: grey;
+  text-align: center;
+}
+.footer .name{
+display: block;
+line-height: 100px;
+}
+.footer .contact{
+  display: none;
+  
+}
+@media only screen and (max-width: 768px) {
+  .container{
+    width: 100%;
+  }
+  .header{
+  width:100%;
+ height: 470px;
+  }
+
+  .head{
+    width: 100%;
+  }
+  .banner{
+    margin-top: 40px;
+  }
+  .banner .text2{
+     margin-top: 10px;
+  }
+  .righhead .list{
+    display: none;
+  }
+  .righhead .mobile{
+    display: block;
+  }
+  .righhead .mobile img{
+    width: 20px;
+    height: 20px;
+    transition: 0.5s;
+    margin-top: 29px;
+    margin-right: 70px;
+  }
+  .righhead .mobile  ul{
+    display: none;
+    height: 126px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+    background-color:bisque;
+    transition: 2.5s;
+    width: 200px;
+  }
+  .righhead .mobile  ul li{
+    margin-top: 2px;
+    list-style: none;
+    margin-left: 10px;
+    height: 30px;
+    
+    width: 100%;
+  }
+  .righhead .mobile  ul li a{
+    font-size: large;
+    color:black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
+  .righhead .mobile  ul li:hover{
+  background-color: white;
+  }
+  .banner{
+    width: 100%;
+  }
+  .title-main{
+    margin-left: 10px;
+  }
+  .box1{
+    display: block;
+    width: 100%;
+    height: 1000px;
+  }
+  .box1 .box1-show{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .box1 .box1-show .image img{
+   margin-left: 1px;
+   width: 90%;
+   height: 350px;
+  }
+  .box1 .box1-show .Name-main {
+    margin-top: 0px;
+  }
+  .box1 .box1-show .Name-main h2{
+    margin-left: 10px;
+    margin-top: 2px;
+    width: 90%;
+  }
+  .box1 .box1-show .praragrap-intro{
+    margin-left: 14px;
+    width: 95%;
+    margin-top: 4px;
+  }
+  .box1 .box2-show{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .box1 .box2-show .image img{
+    margin-left: 1px;
+   width: 90%;
+   height: 350px;
+   }
+   .box1 .box2-show .Name-main{
+    margin-top: 0px;
+   }
+   .box1 .box2-show .Name-main h2{
+    margin-left: 10px;
+    margin-top: 2px;
+    width: 90%;
+  }
+  .box1 .box2-show .praragrap-intro{
+    margin-left: 14px;
+    width: 95%;
+    margin-top: 4px;
+  }
+  .box1 .box2-show .button{
+    margin-top: 50px;
+  }
+  .footer .contact{
+    display: block;
+    color: white;
+    line-height: 100px;
+  }
+  .banner .text {
+    margin-top: 100px;
+  }
+ 
+  .box2{
+   
+    margin-top: 120px;
+    width: 100%;
+  }
+  .box2 .iamge img{
+    width: 95%;
+  }
+  .box2 .text{
+    display: none;
+  }
+  .footer{
+    margin-top: 10px;
+  }
+  .box1-show img{
+    transition: 0.5s;
+  }
+  .box2-show img{
+    transition: 0.5s;
+  }
+  .box1-show img:hover{
+    transform: scale(0.8);
+  }
+  .box2-show img:hover{
+    transform: scale(0.8);
+  }
+  .box2-show .button{
+    transition: background-color 4.5s;
+  }
+  .box1-show .button button:hover{
+    background-color:crimson;
+   }
+ .box2-show .button button:hover{
+  background-color:crimson;
+ }
+ .box2 .image {
+  transition: 0.5s ease-in-out;
+ }
+
+}
